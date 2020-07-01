@@ -1,0 +1,109 @@
+section{
+    border: 600px;
+}
+h1 {
+  font-size: 70px;
+}
+#dhrubocolor {
+  color: #ec4c76;
+}
+#topbanner {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+}
+a:visited{
+    color: turquoise;
+}
+.special:hover{
+    color: black;
+    font-size: 60px;
+    background-color: green;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(
+      45deg,#ec4c76,#8b0e30);
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+  }
+  .half-width {
+    width: 40%;
+    float: left;
+    margin: 20px;
+    padding: 2px;
+  }
+  .half-widthsecond{
+    width: 40%;
+    float: right;
+    margin: 20px;
+    padding: 2px;
+  }
+  #secondprofile{
+      float: left;
+  }
+  .single-exp {
+    box-shadow: 10px 10px 40px;
+    border-radius: 10px;
+    height: 30%;
+    background-color: white;
+  }
+  .thirdwidth{
+      width: 5%;
+      float: left;
+      margin: 20px;
+      padding: 2px;
+  }
+.mywork{
+    margin: 5px;
+    background-repeat: no-repeat;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    float:right;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  #footer-background-image{
+      background-image: url(images/footer-bg.png);
+  }
+  .foot{
+      text-align: center;
+  }
+  #foot-color{
+      color: rgba(24, 17, 17, 0.65);
+  }
+  .emailbox{
+    background-color:rgb(216, 87, 64);
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+  }
+  .footcolortext{
+      color: white;
+  }
+  #message-box{
+    text-align: center;
+    color: white;
+    background-image:repeating-linear-gradient(56deg,#ec4c76,#8b0e30);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 8px;
+    border-width: initial;
+    margin-left: 20%;
+    margin-right: 20%;
+}
